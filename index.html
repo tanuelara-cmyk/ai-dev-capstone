@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <header class="app-header">
+            <h1>AI Task Manager</h1>
+            <p>Add a task, mark it complete, or delete it when you are done.</p>
+        </header>
+
+        <form id="taskForm" class="task-form">
+            <label class="visually-hidden" for="taskInput">Task</label>
+            <input
+                id="taskInput"
+                type="text"
+                name="task"
+                placeholder="Type a task..."
+                autocomplete="off"
+            >
+            <button type="submit" id="addTaskButton">Add Task</button>
+        </form>
+
+        <p id="emptyMessage" class="empty-message">No tasks yet. Add one above.</p>
+
+        <ul id="taskList" class="task-list"></ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
