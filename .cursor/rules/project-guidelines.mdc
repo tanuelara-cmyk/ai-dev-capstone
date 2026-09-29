@@ -1,0 +1,28 @@
+# Project Guidelines
+
+## Project
+AI Task Manager
+
+## Technology Stack
+- HTML
+- CSS
+- JavaScript
+- Git
+- Cursor
+
+## Coding Conventions
+- Keep the code simple and beginner-friendly.
+- Use clear variable and function names.
+- Do not add unnecessary libraries.
+- Keep HTML, CSS, and JavaScript organized.
+- Explain important changes clearly.
+- Test changes before considering a task complete.
+
+## Git Conventions
+Use Conventional Commits.
+
+Examples:
+- feat: add task creation
+- fix: fix task deletion
+- docs: update README
+- chore: update project setup
